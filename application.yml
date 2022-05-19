@@ -1,9 +1,16 @@
 nginx:
   server:
-    name: example.com
+    name: example222.com
 ---
 spring:
   profiles: development
 nginx:
   server:
-    name: develop.com
+    name: develop222.com
+---
+
+spring:
+  profiles: test
+nginx:
+  server:
+    name: test.com
